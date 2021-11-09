@@ -4,3 +4,6 @@ Bourne Again shell bash
 POSIX shell sh
 C shell - If you are you using C shell, %character is the default promptl .csh
 TENEX/TOPS C shell tcsh
+
+Prompt $ - Bourne and Korn shell
+prompt # - Any shell as root
