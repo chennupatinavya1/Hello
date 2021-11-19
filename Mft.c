@@ -38,3 +38,41 @@ int main(void)
 	printf("memory space is unavailable");
 		
 }
+
+
+output1:
+Enter memory size: 1000
+Enter number of blocks: 10
+Enter the no. of processes: 3
+Enter the size of p[1]: 250
+Enter the size of p[2]: 150
+Enter the size of p[3]: 350
+process  size    nba     ifm
+1        250     3       50
+2        150     2       50
+3        350     4       50
+
+--------------------------------
+Process exited after 21.68 seconds with return value 0
+Press any key to continue . . .
+
+	
+output2:
+Enter memory size: 150
+Enter number of blocks: 10
+Enter the no. of processes: 5
+Enter the size of p[1]: 10
+Enter the size of p[2]: 15
+Enter the size of p[3]: 5
+Enter the size of p[4]: 20
+Enter the size of p[5]: 30
+process  size    nba     ifm
+1        10      1       5
+2        15      1       0
+3        5       1       10
+4        20      2       10
+5        30      2       0
+
+--------------------------------
+Process exited after 48.19 seconds with return value 0
+Press any key to continue . . .
